@@ -7,4 +7,4 @@ const Todo = mongoose.model('Todo', mySchema({
     status: {type: String, default: 'Pending'}
 }));
 
-model.exports = Todo;
+module.exports = Todo;
